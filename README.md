@@ -1,22 +1,51 @@
 # Nurse Scheduling using OR-Tools
 
 ## 📌 Problem
-This project solves a nurse scheduling problem using CP-SAT optimization.
 
-## 🛠 Tools
-- Python
-- OR-Tools
+This project solves a nurse scheduling problem using Google OR-Tools CP-SAT.
+
+The model assigns nurses to shifts while satisfying scheduling constraints and balancing workloads.
+
+---
 
 ## 🚀 Features
-- Shift assignment
-- Fair workload
-- Preference satisfaction
 
-## 📊 Results
-Optimization successfully generated feasible schedules.
+- Exactly one nurse per shift
+- At most one shift per nurse per day
+- Rest constraints after night shifts
+- Balanced workload distribution
+- Fair scheduling
 
-## ▶️ Run
+---
+
+## 🛠 Tools Used
+
+- Python
+- Google OR-Tools
+- CP-SAT Solver
+
+---
+
+## 📊 Optimization Constraints
+
+- No consecutive night shifts
+- No morning shift after night shift
+- Nurse 0 and Nurse 1 cannot work night shifts
+- Minimized workload deviations
+
+---
+
+## ▶️ Run the Code
 
 ```bash
 python main.py
 ```
+
+---
+
+## 📚 Concepts Used
+
+- Constraint Programming
+- Scheduling Optimization
+- Operations Research
+- Workforce Planning
