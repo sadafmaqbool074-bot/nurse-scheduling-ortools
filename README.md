@@ -1,6 +1,6 @@
 # Nurse Scheduling using OR-Tools
 
-## 📌 Problem
+## Problem
 
 This project solves a nurse scheduling problem using Google OR-Tools CP-SAT.
 
@@ -8,7 +8,7 @@ The model assigns nurses to shifts while satisfying scheduling constraints and b
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Exactly one nurse per shift
 - At most one shift per nurse per day
@@ -18,7 +18,7 @@ The model assigns nurses to shifts while satisfying scheduling constraints and b
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - Python
 - Google OR-Tools
@@ -26,7 +26,7 @@ The model assigns nurses to shifts while satisfying scheduling constraints and b
 
 ---
 
-## 📊 Optimization Constraints
+##  Optimization Constraints
 
 - No consecutive night shifts
 - No morning shift after night shift
@@ -35,7 +35,7 @@ The model assigns nurses to shifts while satisfying scheduling constraints and b
 
 ---
 
-## ▶️ Run the Code
+##  Run the Code
 
 ```bash
 python main.py
@@ -43,7 +43,7 @@ python main.py
 
 ---
 
-## 📚 Concepts Used
+##  Concepts Used
 
 - Constraint Programming
 - Scheduling Optimization
