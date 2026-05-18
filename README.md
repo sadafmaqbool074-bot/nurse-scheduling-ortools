@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+
+![OR-Tools](https://img.shields.io/badge/Google-OR--Tools-green?style=for-the-badge)
+
+![Optimization](https://img.shields.io/badge/Operations-Research-orange?style=for-the-badge)
 # Nurse Scheduling using OR-Tools
 
 ## Problem
